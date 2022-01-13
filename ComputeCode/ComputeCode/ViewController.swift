@@ -19,7 +19,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     override func viewDidLoad() {
         super.viewDidLoad()
         tableViewSubView()
-        print( self.divide(7, -3))
         
     }
     
@@ -57,21 +56,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         default:break
         }
         vc?.view.backgroundColor = .white
+        vc?.title = self.titleAry[indexPath.row]
         self.navigationController?.pushViewController(vc!, animated: false)
     }
         
-    func divide(_ a: Int, _ b: Int) -> Int {
-        if (a == 0) {
-            return 0
-        }
-        var result = 0
-        var tempa = a
-        while tempa - b >= 0{
-            tempa = tempa - b
-            result += 1
-        }
-        return result
-    }
+   
     
 }
 
