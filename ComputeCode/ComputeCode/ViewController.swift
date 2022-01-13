@@ -12,10 +12,7 @@ import UIKit
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     
-    
-   
-    
-    var titleAry = ["排序","数组","字符串","列表"]
+    var titleAry = ["排序","数组","字符串","链表"]
     
     var tableview = UITableView()
     

@@ -52,6 +52,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		290C8E812790100C007D334A /* 数学 */ = {
+			isa = PBXGroup;
+			children = (
+				29AACC5126DF7A410063C339 /* SortViewController.swift */,
+			);
+			path = "数学";
+			sourceTree = "<group>";
+		};
+		290C8E8227901017007D334A /* 数组 */ = {
+			isa = PBXGroup;
+			children = (
+				29AACC4F26DF6C2F0063C339 /* ListVC.swift */,
+				29C046CF26E1C8F900C8323C /* ArrayVC.swift */,
+			);
+			path = "数组";
+			sourceTree = "<group>";
+		};
+		290C8E8327901027007D334A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				29C046CB26E1C41E00C8323C /* Node.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		290C8E8427901033007D334A /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				29C046CD26E1C6C100C8323C /* SingleList.swift */,
+			);
+			path = "链表";
+			sourceTree = "<group>";
+		};
+		290C8E8527901055007D334A /* 字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				29A5186326E0741F005ED80F /* StringVC.swift */,
+			);
+			path = "字符串";
+			sourceTree = "<group>";
+		};
+		290C8E862790105F007D334A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				29C1021926BA84E700E73182 /* Main.storyboard */,
+				29C1021C26BA84E800E73182 /* Assets.xcassets */,
+				29C1021E26BA84E800E73182 /* LaunchScreen.storyboard */,
+				29C1022126BA84E800E73182 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 		29C1020726BA84E700E73182 = {
 			isa = PBXGroup;
 			children = (
@@ -75,16 +127,12 @@
 			children = (
 				29C1021326BA84E700E73182 /* AppDelegate.swift */,
 				29C1021726BA84E700E73182 /* ViewController.swift */,
-				29AACC5126DF7A410063C339 /* SortViewController.swift */,
-				29C046CF26E1C8F900C8323C /* ArrayVC.swift */,
-				29AACC4F26DF6C2F0063C339 /* ListVC.swift */,
-				29C046CB26E1C41E00C8323C /* Node.swift */,
-				29C046CD26E1C6C100C8323C /* SingleList.swift */,
-				29A5186326E0741F005ED80F /* StringVC.swift */,
-				29C1021926BA84E700E73182 /* Main.storyboard */,
-				29C1021C26BA84E800E73182 /* Assets.xcassets */,
-				29C1021E26BA84E800E73182 /* LaunchScreen.storyboard */,
-				29C1022126BA84E800E73182 /* Info.plist */,
+				290C8E812790100C007D334A /* 数学 */,
+				290C8E8227901017007D334A /* 数组 */,
+				290C8E8327901027007D334A /* Common */,
+				290C8E8427901033007D334A /* 链表 */,
+				290C8E8527901055007D334A /* 字符串 */,
+				290C8E862790105F007D334A /* Others */,
 			);
 			path = ComputeCode;
 			sourceTree = "<group>";
